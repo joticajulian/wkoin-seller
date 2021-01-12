@@ -66,5 +66,5 @@ setInterval(async () => {
 
   if(sellId) sellId = response.id + "-1";
   else sellId = response.id;
-}, 15 * 1000);
+}, 10 * 60 * 1000);
 
