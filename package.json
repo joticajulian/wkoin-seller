@@ -1,0 +1,30 @@
+{
+  "name": "wkoin-seller",
+  "version": "1.0.0",
+  "description": "Bot to dinamically change the sell price on hive engine for WKOIN based on uniswap price",
+  "main": "wkoin-seller.js",
+  "dependencies": {
+    "@hiveio/dhive": "^0.14.12",
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node src/wkoin-seller.js",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joticajulian/wkoin-seller.git"
+  },
+  "keywords": [
+    "koin",
+    "wkoin"
+  ],
+  "author": "Julian Gonzalez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joticajulian/wkoin-seller/issues"
+  },
+  "homepage": "https://github.com/joticajulian/wkoin-seller#readme"
+}
