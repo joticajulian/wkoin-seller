@@ -58,7 +58,7 @@ setInterval(async () => {
 
   // create new sell order
   const price = process.env.PRICE_FACTOR * koinPrice / hivePrice;
-  const quantity = 1000;
+  const quantity = process.env.QUANTITY;
   operations.push(operationCreateNewSellOrder(quantity, price));
 
   const response = await dhive.broadcast.sendOperations(operations, privKey);
